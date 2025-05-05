@@ -159,7 +159,7 @@ nav .container {
 
 .nav-links a {
     margin-left: 20px;
-    color: white; /* Changed to white for better contrast on dark header */
+    color: black; /* Changed to white for better contrast on dark header */
     font-weight: 500;
 }
 
