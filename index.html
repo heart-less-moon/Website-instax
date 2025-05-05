@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instax</title>
+    <meta name="description" content="Next generation instagram modified for Android, made by heart less.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Instax</a>
+                </div>
+                <div class="nav-container">
+                    <div class="nav-links">
+                        <a href="#">Home</a>
+                        <a href="#team">Team</a>
+                        <a href="#features">Features</a>
+                        <a href="#download" class="download-btn">Download</a>
+                        <a href="https://t.me/instaxchat" target="_blank">Chats</a>
+                    </div>
+                    <div class="theme-switcher-container">
+                        <div class="theme-toggle" id="theme-toggle"></div>
+                        <div class="theme-options" id="theme-options">
+                            <div class="theme-option" data-theme="red" style="background-color: #FF3B30;"></div>
+                            <div class="theme-option" data-theme="blue" style="background-color: #2AABEE;"></div>
+                            <div class="theme-option" data-theme="green" style="background-color: #34C759;"></div>
+                            <div class="theme-option" data-theme="purple" style="background-color: #AF52DE;"></div>
+                            <div class="theme-option" data-theme="orange" style="background-color: #FF9500;"></div>
+                            <div class="theme-option" data-theme="pink" style="background-color: #FF2D55;"></div>
+                            <div class="theme-option" data-theme="indigo" style="background-color: #5856D6;"></div>
+                            <div class="theme-option" data-theme="teal" style="background-color: #5AC8FA;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Heart Less<span>	instax</span></h1>
+                        <p>Next generation Instagram modifiedfor Android, made with <span class="highlight">❤️ by Heart Less</p></span>
+                        <div class="hero-cta">
+                            <a href="#download" class="btn primary-btn">Download Now</a>
+                            <a href="#features" class="btn secondary-btn">Explore Features</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="phone-mockup hero-phone">
+                            <div class="phone-screen hero-screen">
+                                <div class="html-screen instagram-home-screen">
+                                    <div class="status-bar">
+                                        <div class="status-icons"></div>
+                                    </div>
+                                    <div class="insta-header">
+                                        <div class="insta-logo">Instagram</div>
+                                        <div class="insta-actions">
+                                            <div class="action-icon heart-icon"></div>
+                                            <div class="action-icon dm-icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="insta-stories">
+                                        <div class="story-item">
+                                            <div class="story-avatar"></div>
+                                            <div class="story-username"></div>
+                                        </div>
+                                        <div class="story-item">
+                                            <div class="story-avatar"></div>
+                                            <div class="story-username"></div>
+                                        </div>
+                                        <div class="story-item">
+                                            <div class="story-avatar"></div>
+                                            <div class="story-username"></div>
+                                        </div>
+                                        <div class="story-item">
+                                            <div class="story-avatar"></div>
+                                            <div class="story-username"></div>
+                                        </div>
+                                        <div class="story-item">
+                                            <div class="story-avatar"></div>
+                                            <div class="story-username"></div>
+                                        </div>
+                                    </div>
+                                    <div class="insta-post">
+                                        <div class="post-header">
+                                            <div class="post-avatar"></div>
+                                            <div class="post-info">
+                                                <div class="post-username"></div>
+                                                <div class="post-location"></div>
+                                            </div>
+                                            <div class="post-more"></div>
+                                        </div>
+                                        <div class="post-image"></div>
+                                        <div class="post-actions">
+                                            <div class="post-action-left">
+                                                <div class="action-icon like"></div>
+                                                <div class="action-icon comment"></div>
+                                                <div class="action-icon share"></div>
+                                            </div>
+                                            <div class="action-icon save"></div>
+                                        </div>
+                                        <div class="post-likes"></div>
+                                        <div class="post-caption">
+                                            <div class="caption-username"></div>
+                                            <div class="caption-text"></div>
+                                        </div>
+                                        <div class="post-comments"></div>
+                                        <div class="post-time"></div>
+                                    </div>
+                                    <div class="insta-navbar">
+                                        <div class="nav-item home active"></div>
+                                        <div class="nav-item search"></div>
+                                        <div class="nav-item add"></div>
+                                        <div class="nav-item reels"></div>
+                                        <div class="nav-item profile"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-notch"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50k+</span>
+                        <span class="stat-label">Downloads</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4.8</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">450+</span>
+                        <span class="stat-label">Features</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <p class="section-desc">Take a look at the list of features that make our modified special!</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <h3>Lots of settings</h3>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>developer mode</h3>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Interface customization</h3>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h3>Discover more features</h3>
+                        <span class="feature-note">*for Android 15 and higher</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-detail">
+            <div class="container">
+                <div class="feature-row reverse">
+                    <div class="feature-text">
+                        <h3>Dynamic features</h3>
+                        <p>Experience instax with the best option and all instagram features, made possible by the amazing work our developer made.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone-mockup">
+                            <div class="phone-screen theme-screen">
+                                <div class="html-screen instagram-settings-screen">
+                                    <div class="status-bar">
+                                        <div class="status-icons"></div>
+                                    </div>
+                                    <div class="insta-settings-header">
+                                        <div class="back-button"></div>
+                                        <div class="header-title">Appearance</div>
+                                        <div class="header-actions"></div>
+                                    </div>
+                                    <div class="insta-settings-content">
+                                        <div class="settings-section">
+                                            <div class="section-title">Theme</div>
+                                            <div class="theme-options">
+                                                <div class="theme-option active">
+                                                    <div class="option-color dark"></div>
+                                                    <div class="option-name">Dark</div>
+                                                    <div class="option-check"></div>
+                                                </div>
+                                                <div class="theme-option">
+                                                    <div class="option-color light"></div>
+                                                    <div class="option-name">Light</div>
+                                                </div>
+                                                <div class="theme-option">
+                                                    <div class="option-color system"></div>
+                                                    <div class="option-name">System</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="settings-section">
+                                            <div class="section-title">Color</div>
+                                            <div class="color-options">
+                                                <div class="color-option active">
+                                                    <div class="color-swatch blue"></div>
+                                                </div>
+                                                <div class="color-option">
+                                                    <div class="color-swatch red"></div>
+                                                </div>
+                                                <div class="color-option">
+                                                    <div class="color-swatch green"></div>
+                                                </div>
+                                                <div class="color-option">
+                                                    <div class="color-swatch yellow"></div>
+                                                </div>
+                                                <div class="color-option">
+                                                    <div class="color-swatch purple"></div>
+                                                </div>
+                                                <div class="color-option">
+                                                    <div class="color-swatch orange"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="settings-section">
+                                            <div class="section-title">Display Options</div>
+                                            <div class="toggle-options">
+                                                <div class="toggle-option">
+                                                    <div class="toggle-info">
+                                                        <div class="toggle-name">Dark mode</div>
+                                                        <div class="toggle-description">Use dark theme</div>
+                                                    </div>
+                                                    <div class="toggle-switch active"></div>
+                                                </div>
+                                                <div class="toggle-option">
+                                                    <div class="toggle-info">
+                                                        <div class="toggle-name">Reduce animations</div>
+                                                        <div class="toggle-description">Decrease motion effects</div>
+                                                    </div>
+                                                    <div class="toggle-switch"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-notch"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modern Interface section removed -->
+                
+                <div class="feature-row">
+                    <div class="feature-text">
+                        <h3>Marvelous Design</h3>
+                        <p>Enjoy a fresh modern look using instagram design system and custom ios style.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone-mockup">
+                            <div class="phone-screen design-screen">
+                                <div class="html-screen design-gallery-screen">
+                                    <div class="status-bar">
+                                        <div class="status-icons"></div>
+                                    </div>
+                                    <div class="gallery-header">
+                                        <div class="header-title"></div>
+                                        <div class="header-actions"></div>
+                                    </div>
+                                    <div class="gallery-tabs">
+                                        <div class="tab active"></div>
+                                        <div class="tab"></div>
+                                        <div class="tab"></div>
+                                    </div>
+                                    <div class="gallery-grid">
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                        <div class="gallery-item"></div>
+                                    </div>
+                                    <div class="nav-bar">
+                                        <div class="nav-item"></div>
+                                        <div class="nav-item"></div>
+                                        <div class="nav-item active"></div>
+                                        <div class="nav-item"></div>
+                                        <div class="nav-item"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-notch"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row reverse">
+                    <div class="feature-text">
+                        <h3>Improved Quality of Media</h3>
+                        <p>Improve media quality using our experimental feature.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone-mockup">
+                            <div class="phone-screen speed-screen">
+                                <div class="html-screen instagram-performance-screen">
+                                    <div class="status-bar">
+                                        <div class="status-icons"></div>
+                                    </div>
+                                    <div class="insta-performance-header">
+                                        <div class="back-button"></div>
+                                        <div class="header-title">Media Quality</div>
+                                        <div class="header-actions"></div>
+                                    </div>
+                                    <div class="insta-performance-content">
+                                        <div class="performance-meter">
+                                            <div class="meter-circle">
+                                                <div class="meter-value">95</div>
+                                                <div class="meter-label">Performance Score</div>
+                                            </div>
+                                            <div class="meter-details">
+                                                <div class="detail-item good">
+                                                    <div class="detail-icon"></div>
+                                                    <div class="detail-info">
+                                                        <div class="detail-label">Upload Speed</div>
+                                                        <div class="detail-value">Excellent</div>
+                                                    </div>
+                                                </div>
+                                                <div class="detail-item good">
+                                                    <div class="detail-icon"></div>
+                                                    <div class="detail-info">
+                                                        <div class="detail-label">Download Speed</div>
+                                                        <div class="detail-value">Excellent</div>
+                                                    </div>
+                                                </div>
+                                                <div class="detail-item warning">
+                                                    <div class="detail-icon"></div>
+                                                    <div class="detail-info">
+                                                        <div class="detail-label">Media Compression</div>
+                                                        <div class="detail-value">Good</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="quality-section">
+                                            <div class="section-header">
+                                                <div class="section-title">Media Quality Settings</div>
+                                                <div class="section-subtitle">Choose your preferred quality level</div>
+                                            </div>
+                                            
+                                            <div class="quality-options">
+                                                <div class="quality-option">
+                                                    <div class="option-header">
+                                                        <div class="option-icon standard"></div>
+                                                        <div class="option-title">Standard</div>
+                                                    </div>
+                                                    <div class="option-description">Balanced quality and data usage</div>
+                                                </div>
+                                                
+                                                <div class="quality-option active">
+                                                    <div class="option-header">
+                                                        <div class="option-icon high"></div>
+                                                        <div class="option-title">High</div>
+                                                    </div>
+                                                    <div class="option-description">Better quality, more data usage</div>
+                                                </div>
+                                                
+                                                <div class="quality-option">
+                                                    <div class="option-header">
+                                                        <div class="option-icon ultra"></div>
+                                                        <div class="option-title">Ultra HD</div>
+                                                    </div>
+                                                    <div class="option-description">Maximum quality, highest data usage</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="data-usage-section">
+                                            <div class="section-title">Estimated Data Usage</div>
+                                            <div class="data-usage-bar">
+                                                <div class="usage-fill"></div>
+                                            </div>
+                                            <div class="data-usage-labels">
+                                                <div class="usage-label">65% of daily limit</div>
+                                                <div class="usage-value">650MB / 1GB</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-notch"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-row">
+                    <div class="feature-text">
+                        <h3>The Best version</h3>
+                        <p>Use our imported and configurable features to take amazing shots right from the app.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone-mockup">
+                            <div class="phone-screen camera-screen">
+                                <div class="html-screen camera-interface-screen">
+                                    <div class="camera-viewfinder">
+                                        <div class="camera-grid-lines">
+                                            <div class="grid-line horizontal"></div>
+                                            <div class="grid-line horizontal"></div>
+                                            <div class="grid-line vertical"></div>
+                                            <div class="grid-line vertical"></div>
+                                        </div>
+                                        <div class="focus-indicator"></div>
+                                    </div>
+                                    <div class="camera-controls-top">
+                                        <div class="control-item">
+                                            <div class="control-icon"></div>
+                                        </div>
+                                        <div class="control-item">
+                                            <div class="control-icon"></div>
+                                        </div>
+                                        <div class="control-item">
+                                            <div class="control-icon"></div>
+                                        </div>
+                                    </div>
+                                    <div class="camera-modes">
+                                        <div class="mode-item">PHOTO</div>
+                                        <div class="mode-item active">VIDEO</div>
+                                        <div class="mode-item">PORTRAIT</div>
+                                    </div>
+                                    <div class="camera-controls-bottom">
+                                        <div class="gallery-preview"></div>
+                                        <div class="shutter-button">
+                                            <div class="shutter-inner"></div>
+                                        </div>
+                                        <div class="camera-flip">
+                                            <div class="flip-icon"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="phone-notch"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More features section removed -->
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                
+                <div class="team-grid">
+                    <div class="team-card">
+                        <h4>immat0x1</h4>
+                        <p>CEO, Lead Dev</p>
+                        <a href="https://immat0x1.t.me" target="_blank" class="contact-link">Contact</a>
+                    </div>
+                    
+                    <div class="team-card">
+                        <h4>8055</h4>
+                        <p>Lead Designer</p>
+                        <a href="https://the8055u.t.me" target="_blank" class="contact-link">Contact</a>
+                    </div>
+                    
+                    <div class="team-card">
+                        <h4>itsv1eds</h4>
+                        <p>Founder</p>
+                        <a href="https://itsv1eds.ru/" target="_blank" class="contact-link">Contact</a>
+                    </div>
+                    
+                    <div class="team-card">
+                        <h4>Nightly</h4>
+                        <p>Python Dev, Themer</p>
+                        <a href="https://reNightly.t.me" target="_blank" class="contact-link">Contact</a>
+                    </div>
+                    
+                    <div class="team-card">
+                        <h4>jplie</h4>
+                        <p>moeGramX Dev</p>
+                        <a href="https://marsutko.t.me" target="_blank" class="contact-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="container">
+                <h2>Join our lovely family</h2>
+                
+                <div class="download-grid">
+                    <a href="https://t.me/instax" target="_blank" class="download-card">
+                        <div class="download-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="download-text">
+                            <h4>Download as</h4>
+                            <p>APK</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/instax" target="_blank" class="download-card">
+                        <div class="download-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="download-text">
+                            <h4>Open through</h4>
+                            <p>Telegram</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Heart Less</h3>
+                    <p>Experimental third-party Instagram Modified.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/heart.__less_" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/hearlessbotz" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-credit">
+               <p>All rights reserved &copy; 2025 <a href="https://www.instagram.com/heart.__less_" target="_blank">Heart Less</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="up-btn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="js/script.js"></script>
+</body>
+</html>
